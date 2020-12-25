@@ -4,6 +4,10 @@ body{
     /* background-color: black; */
     background-repeat: no-repeat;
     background-size: cover;
+    display: grid;
+    grid-template: auto;
+    justify-content: space-around;
+    align-content: space-around;
 }
 .container1{
     background-image: url("./images/insideboxcolor.png");
@@ -14,14 +18,17 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 85px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     width: 1500px;
     height: 650px;
     border-radius: 25px;
 }
+.temp{
+    background-color: red;
+}
 .container2{
     /* display: grid; */
-    /* grid-template-columns: 1fr, 3fr, 1fr; */
+    /* grid-templa1te-columns: 1fr, 3fr, 1fr; */
     /* background-color: red; */
     height: 130px;
 }
@@ -37,12 +44,7 @@ ul{
     justify-content: space-evenly;
     width: 500px;
 }
-li{
-    /* border: 1px solid yellow; */
-    /* flex-grow: 1; */
-    /* margin: auto; */
-}
-a{
+li > a{
     text-decoration: none;
     color: #131313;
     font-family: "gilroy"; 
