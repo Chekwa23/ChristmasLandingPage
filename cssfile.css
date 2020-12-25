@@ -1,0 +1,135 @@
+
+body{
+    background: url("./images/background.png");
+    /* background-color: black; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container1{
+    background-image: url("./images/insideboxcolor.png");
+    /* background-color: black; */
+    /* background: rgba(255, 255, 255, 0.67);
+    backdrop-filter: blur(54.7159px); */
+    display: grid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 85px;
+    margin-left: 100px;
+    width: 1500px;
+    height: 650px;
+    border-radius: 25px;
+}
+.container2{
+    /* display: grid; */
+    /* grid-template-columns: 1fr, 3fr, 1fr; */
+    /* background-color: red; */
+    height: 130px;
+}
+.container3{
+    /* background-color: blue; */
+    height: 550px;
+}
+ul{
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 500px;
+}
+li{
+    /* border: 1px solid yellow; */
+    /* flex-grow: 1; */
+    /* margin: auto; */
+}
+a{
+    text-decoration: none;
+    color: #131313;
+    font-family: "gilroy"; 
+    font-size: 24px;
+    font-weight: 500;
+}
+.navbtn{
+    height: 50px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: #19AD52;
+    margin-right: 180px;
+    font-family: "gilroy"; 
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.navimg{
+    margin-left: 180px;
+}
+.textstuff{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+h1{
+    color: #131313;
+    font-size: 72px;
+    font-weight: 700;
+    font-family: "gilroy";
+    text-shadow: 2px 2px #818080;
+    
+}
+p{
+    color: #131313;
+    font-size: 38px;
+    font-weight: 500;
+    font-family: "gilroy"; 
+}
+.textbtn{
+    height: 50px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: #F60059;
+    font-family: "gilroy"; 
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.leftcandy{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 0px;
+}
+.rightcandy{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 1270px;
+}
+.leftgift{
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 165px;
+    height: 280px;
+    width: 450px;
+}
+.rightgift{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 790px;
+    height: 380px;
+    width: 550px;
+}
+.centergift{
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 530px;
+    height: 280px;
+    width: 450px;
+}
+.topflakes{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 1200px;
+}
+.middleflakes{
+    position: absolute;
+    margin-top: 294px;
+    margin-left: 690px;
+}
