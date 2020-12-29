@@ -1,4 +1,3 @@
-
 body{
     background: url("./images/background.png");
     background-repeat: no-repeat;
@@ -6,53 +5,45 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    min-width: 900px;
 }
-.container{
-    /* background: url("./images/background.png"); */
-    background-color: red;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
-    /* grid-template: minmax(650px, 650px)/minmax(1500px,1500px); */
-    justify-content: space-around;
-    align-content: space-around;
-    width: 2000px;
-    height: 500px;
-}
-.container1{
-    background-image: url("./images/insideboxcolor.png");
-    /* background-color: black; */
-    /* background: rgba(255, 255, 255, 0.67);
-    backdrop-filter: blur(54.7159px); */
-    display: grid;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* margin-top: 85px; */
-    /* margin-left: 100px; */
-    width: 1500px;
-    height: 650px;
-    border-radius: 25px;
-}
-.temp{
-    background-color: red;
-}
-.container2{
-    /* display: grid; */
-    /* grid-templa1te-columns: 1fr, 3fr, 1fr; */
+.midbox{
     /* background-color: red; */
-    height: 130px;
+    background-image: url("./images/insideboxcolor.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    height: 80vh;
+    flex-basis: 80%;
+    border-radius: 25px;
+    display: grid;
+    grid-template-rows: 20% 35% 45%;
 }
-.container3{
-    /* background-color: blue; */
-    height: 550px;
+.topnav{
+    /* background-color: pink; */
+
 }
-ul{
-    /* display: grid;
-    grid-template-columns: repeat(3,1fr); */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 500px;
+.navbar-nav > li{
+    padding-left: 2vw;
+}
+.linksbox{
+    
+}
+.navimg{
+    margin-left: 5vw;
+}
+.topbtn{
+    height: 50px;
+    width: 10%;
+    border-radius: 20px;
+    background-color: #19AD52;
+    margin-right: 5vw;
+    font-family: "gilroy"; 
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
 }
 li > a{
     text-decoration: none;
@@ -61,24 +52,12 @@ li > a{
     font-size: 24px;
     font-weight: 500;
 }
-.navbtn{
-    height: 50px;
-    width: 130px;
-    border-radius: 20px;
-    background-color: #19AD52;
-    margin-right: 180px;
-    font-family: "gilroy"; 
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
-}
-.navimg{
-    margin-left: 180px;
-}
-.textstuff{
+.textbox{
+    /* background-color: yellow; */
     display: flex;
     flex-direction: column;
     align-items: center; 
+    justify-content: center;
 }
 h1{
     color: #131313;
@@ -96,7 +75,7 @@ p{
 }
 .textbtn{
     height: 50px;
-    width: 130px;
+    width: 10%;
     border-radius: 20px;
     background-color: #F60059;
     font-family: "gilroy"; 
@@ -104,44 +83,25 @@ p{
     font-weight: 600;
     color: white;
 }
+.giftbox{
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.allgifts{
+    height: 100%;
+    width: 80%;
+}
 .leftcandy{
     position: absolute;
-    margin-top: 100px;
-    margin-left: 0px;
+    top: 25%;
+    left: 0;
+    width: 15%;
 }
 .rightcandy{
     position: absolute;
-    margin-top: 150px;
-    margin-left: 1270px;
-}
-.leftgift{
-    position: absolute;
-    margin-top: 370px;
-    margin-left: 165px;
-    height: 280px;
-    width: 450px;
-}
-.rightgift{
-    position: absolute;
-    margin-top: 270px;
-    margin-left: 790px;
-    height: 380px;
-    width: 550px;
-}
-.centergift{
-    position: absolute;
-    margin-top: 370px;
-    margin-left: 530px;
-    height: 280px;
-    width: 450px;
-}
-.topflakes{
-    position: absolute;
-    margin-top: 40px;
-    margin-left: 1200px;
-}
-.middleflakes{
-    position: absolute;
-    margin-top: 294px;
-    margin-left: 690px;
+    top: 30%;
+    right: 0;
+    width: 15%;
 }
