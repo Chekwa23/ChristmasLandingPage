@@ -35,8 +35,7 @@ body{
     margin-left: 5vw;
 }
 .topbtn{
-    height: 50px;
-    width: 10%;
+    /* height: 50px; */
     border-radius: 20px;
     background-color: #19AD52;
     margin-right: 5vw;
@@ -44,6 +43,11 @@ body{
     font-size: 16px;
     font-weight: 600;
     color: white;
+    padding: 15px 25px 15px 25px;
+}
+.topbtn:hover{
+    color:  #F60059;
+    background-image:  url("./images/snowflakes.png");
 }
 li > a{
     text-decoration: none;
@@ -51,6 +55,10 @@ li > a{
     font-family: "gilroy"; 
     font-size: 24px;
     font-weight: 500;
+    
+}
+li > a:hover {
+    color:red;
 }
 .textbox{
     /* background-color: yellow; */
@@ -74,14 +82,18 @@ p{
     font-family: "gilroy"; 
 }
 .textbtn{
-    height: 50px;
-    width: 10%;
+    /* height: 50px; */
     border-radius: 20px;
     background-color: #F60059;
     font-family: "gilroy"; 
     font-size: 16px;
     font-weight: 600;
     color: white;
+    padding: 15px 25px 15px 25px;
+}
+.textbtn:hover{
+    color:  #19AD52;
+    background-image:  url("./images/snowflakes.png");
 }
 .giftbox{
     /* background-color: green; */
