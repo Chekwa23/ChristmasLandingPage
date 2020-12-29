@@ -8,6 +8,6 @@ https://mystifying-bardeen-7bb7cf.netlify.app/
 Github pages:
 https://chekwa23.github.io/ChristmasLandingPage/
 
-UI/UX by Lanre Okemati (github: https://github.com/Okemati || linkedin: https://www.linkedin.com/in/lanre-okemati-9b7499177/)
+UI/UX by Lanre Okemati (linkedin: https://www.linkedin.com/in/lanre-okemati-9b7499177/ || dribble portfolio: https://dribbble.com/manlikemati)
 
 
