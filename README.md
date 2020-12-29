@@ -2,6 +2,8 @@
 A Christmas Landing page using HTML/CSS and a little Bootstrap. 
 Deployed on github pages and netlify (PS... I would advise using the netlify link, it deploys and updates faster)
 
+![](images/desktopview.png)
+
 Netlify:
 https://mystifying-bardeen-7bb7cf.netlify.app/
 
